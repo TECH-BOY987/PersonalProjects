@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+#board{
+background-color: black;
+}
+.neon-text {
+  color: #fff;
+  animation: neon-flicker .7s infinite alternate; /* Apply the animation */
+}
+
+@keyframes neon-flicker {
+  from {
+    text-shadow: 
+      0 0 7px #fff, 
+      0 0 10px #0ff, 
+      0 0 21px rgb(0, 183, 255); 
+  }
+  to {
+    text-shadow: 
+      0 0 10px #ffffff, 
+      0 0 20px rgb(0, 98, 255), 
+      0 0 40px rgb(200, 0, 255), 
+      0 0 80px rgb(255, 0, 251);
+  }
+}
+.end-text {
+  color: #fff;
+  animation: neon-flicker .7s infinite alternate; /* Apply the animation */
+}
+
+@keyframes neon-flicker {
+  from {
+    text-shadow: 
+      0 0 7px #fff, 
+      0 0 10px #0ff, 
+      0 0 21px rgb(0, 183, 255); 
+  }
+  to {
+    text-shadow: 
+      0 0 10px #ffffff, 
+      0 0 20px rgb(0, 98, 255), 
+      0 0 40px rgb(200, 0, 255), 
+      0 0 80px rgb(255, 0, 251);
+  }
+}
